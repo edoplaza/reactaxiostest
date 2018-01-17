@@ -1,0 +1,68 @@
+/* General
+-------------------------------------------------------------------------------*/
+html {
+	-webkit-text-size-adjust: 100%;
+}
+
+body,
+input,
+select,
+textarea {
+	color: #666;
+	background: white;
+}
+
+a {
+	color: #666;
+
+	&:hover {
+		color: black;
+	}
+}
+
+::selection {
+	color: #000;
+	background: #c3effd;
+}
+
+::-moz-selection {
+	color: #000;
+	background: #c3effd;
+}
+
+a:link {
+	-webkit-tap-highlight-color: black;
+}
+
+mark {
+	font-weight: bold;
+	font-style: italic;
+	color: #000;
+	background-color: #fcd700;
+}
+
+input:-moz-placeholder {
+	color: #a9a9a9;
+}
+
+textarea:-moz-placeholder {
+	color: #a9a9a9;
+}
+
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+a {
+	transition: color ease-in 0.2s;
+}
+
+.container {
+	max-width: $max-width;
+	margin: 0 auto;
+	position: relative;
+	padding: 0 20px;
+	height: 100%;
+}
